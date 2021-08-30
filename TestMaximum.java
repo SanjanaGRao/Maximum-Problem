@@ -18,7 +18,7 @@ public class TestMaximum<T extends Comparable<T>> {
 			this.fourth=fourth;
 		}
 	
-	//Constructor when user wants 3 parameter
+	//Constructor when user wants 5 parameters
 	public TestMaximum(T first,T second,T third,T fourth,T fifth) {
 			this.first=first;
 			this.second=second;
@@ -26,6 +26,7 @@ public class TestMaximum<T extends Comparable<T>> {
 			this.fourth=fourth;
 			this.fifth=fifth;
 		}
+	
 	/*Generic method using compareTo to find out the maximum of Integers
 	 * @param max is used to assume first is maximum then compare with second and third
 	 * Refactoring: To create Generic Class to take in 3 variables of Generic Type
