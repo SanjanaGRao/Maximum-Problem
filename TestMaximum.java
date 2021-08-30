@@ -12,6 +12,7 @@ public class TestMaximum<T extends Comparable<T>> {
 	
 	/*Generic method using compareTo to find out the maximum of Integers
 	 * @param max is used to assume first is maximum then compare with second and third
+	 * Refactoring: To create Generic Class to take in 3 variables of Generic Type
 	 */
 	 public static <T extends Comparable<T>> T maximumValue(T first,T second,T third) {
 			T max = first;  
